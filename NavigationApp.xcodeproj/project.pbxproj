@@ -44,7 +44,6 @@
 		740DCCF22C7F0B9E00B81707 = {
 			isa = PBXGroup;
 			children = (
-				740DCD142C7F184700B81707 /* ThirdViewController.swift */,
 				740DCCFD2C7F0B9E00B81707 /* NavigationApp */,
 				740DCCFC2C7F0B9E00B81707 /* Products */,
 			);
@@ -64,6 +63,7 @@
 				740DCCFE2C7F0B9E00B81707 /* AppDelegate.swift */,
 				740DCD002C7F0B9E00B81707 /* SceneDelegate.swift */,
 				740DCD122C7F181500B81707 /* SecondViewController.swift */,
+				740DCD142C7F184700B81707 /* ThirdViewController.swift */,
 				740DCD022C7F0B9E00B81707 /* ViewController.swift */,
 				740DCD042C7F0B9E00B81707 /* Main.storyboard */,
 				740DCD072C7F0BA100B81707 /* Assets.xcassets */,

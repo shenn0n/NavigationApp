@@ -15,6 +15,17 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
+        let thirdVC = segue.source as! ThirdViewController
+        title = thirdVC.text
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "edit" {
+            let thirdVC = segue.destination as! ThirdViewController
+            thirdVC.text = segue.identifier
+        }
+    }
 
     /*
     // MARK: - Navigation
@@ -25,5 +36,9 @@ class SecondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    deinit {
+        print("The SecondVC has unloaded from memory")
+    }
+    
 }

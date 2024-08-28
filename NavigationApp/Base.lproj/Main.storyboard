@@ -57,7 +57,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="hE9-as-yOT" kind="presentation" id="h40-dc-ygk"/>
+                                    <segue destination="hE9-as-yOT" kind="presentation" identifier="Edit" id="h40-dc-ygk"/>
                                 </connections>
                             </button>
                         </subviews>
